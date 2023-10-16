@@ -49,6 +49,19 @@ img{
   padding-top: 2em;
 }
 
+.iframe-container {
+  width: 960;
+  height: 600;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+iframe{
+  max-width: 960;
+  height: 600;
+}
+
 h1{
    font-family: ff-real-headline-pro, sans-serif;
    font-weight: 400;
