@@ -89,7 +89,9 @@ h0{
   font-size: 80px;
   line-height: 1;
   margin-bottom: 50px;
-  padding-top: 40px
+  padding-top: 40px;
+  color: #27B088;
+  hyphens: none;
 }
 
 h1{
@@ -125,7 +127,7 @@ h2{
   font-weight: medium;
   margin-top: 10px;
   margin-bottom: 40px;
-  color: #0033cc;
+  color: #27B088;
   display: block;
   clear: both;
 }
@@ -136,7 +138,7 @@ h2{
   font-weight: medium;
   margin-top: 10px;
   margin-bottom: 40px;
-  color: #0033cc;
+  color: #27B088;
   display: block;
 }
 
