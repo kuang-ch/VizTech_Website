@@ -172,3 +172,45 @@ sub {
   top: 0.4em;
 }
 
+
+/* --Below is for the bullet points--
+
+/* Apply custom styles to unordered list */
+ul {
+  list-style: none; /* Remove default bullet points */
+  padding-left: 20px; /* Add left padding for spacing */
+}
+
+/* Style list items as custom bullet points */
+ul li::before {
+  content: "\2022"; /* Unicode character for bullet point (•) */
+  color: #0033cc; /* Change the color of the bullet point */
+  font-size: 18px; /* Adjust the size of the bullet point */
+  margin-right: 10px; /* Add spacing between bullet point and text */
+}
+
+/* Apply custom styles to ordered list */
+ol {
+  list-style: none; /* Remove default numbers */
+  padding-left: 20px; /* Add left padding for spacing */
+}
+
+/* Style list items as custom numbered points */
+ol li::before {
+  content: counter(list-item) ". "; /* Add numbers followed by period */
+  counter-increment: list-item; /* Increment the counter for each list item */
+  color: #0033cc; /* Change the color of the numbered point */
+  font-size: 18px; /* Adjust the size of the numbered point */
+  margin-right: 10px; /* Add spacing between numbered point and text */
+}
+
+/* Apply consistent font styles for both list items and paragraphs */
+ul li,
+ol li {
+  font-family: ff-real-text-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000; /* Text color for consistency with paragraphs */
+}
