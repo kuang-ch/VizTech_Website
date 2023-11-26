@@ -153,6 +153,8 @@ p{
    font-style: normal;
    font-size: 18px;
    line-height: 27px;
+   margin: 0;
+   padding: 0;
 }
 
 p+p{
@@ -186,6 +188,8 @@ sub {
 ul {
   list-style: none; /* Remove default bullet points */
   padding-left: 20px; /* Add left padding for spacing */
+  padding-top: 0px;
+  margin-top: 0px;
 }
 
 /* Style list items as custom bullet points */
