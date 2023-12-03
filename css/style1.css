@@ -21,7 +21,7 @@ a{
   color: #27B088;
 }
 
-a:link {
+a[target="_blank"]  {
   font-style: normal;
   color: #27B088;
 }
